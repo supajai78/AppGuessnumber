@@ -20,7 +20,7 @@ public class AppGuessNumber {
         int count = 0;
         Random r = new Random();
         Scanner scan = new Scanner(System.in);
-        numRandom = r.nextInt(10);
+        numRandom = r.nextInt(100);
         System.out.println("number is "+numRandom);
         //System.out.println("compari : "+ (numRandom==numGuess));
         
