@@ -31,10 +31,11 @@ public class AppGuessNumber {
             System.out.println("you win"); 
             break;
         }else if(numGuess>numRandom){
-            System.out.println("<<<<< decrement" + (count++));
-       
+            System.out.println("<<<<< decrement" );
+            count++;
         }else if (numGuess<numRandom){
-            System.out.println("Increment >>>>>" + (count++));
+            System.out.println("Increment >>>>>" );
+            count++;
         }
          
     
